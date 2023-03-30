@@ -282,19 +282,6 @@ images.forEach((PNG) => {
         alertContainer.set;
 
         test20();
-      } else {
-        alertContainer.innerHTML = `<div class="alert">
-        Nope !
-        </div>`;
-
-        function hideAlert() {
-          alertContainer.innerHTML = ``;
-        }
-        window.setTimeout(hideAlert, 2000);
-
-        alertContainer.set;
-
-        test20();
       }
     });
   });
